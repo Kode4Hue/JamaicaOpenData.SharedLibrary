@@ -8,18 +8,13 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <PackageReference Include="Kode4Hue.CleanArchitecture.SharedLibrary" Version="1.0.0" />
     <PackageReference Include="Microsoft.Extensions.Hosting" Version="6.0.0" />
     <PackageReference Include="Microsoft.Extensions.Http" Version="6.0.0" />
   </ItemGroup>
 
   <ItemGroup>
     <ProjectReference Include="..\JamaicaOpenData.SharedLibrary\JamaicaOpenData.SharedLibrary.csproj" />
-  </ItemGroup>
-
-  <ItemGroup>
-    <Reference Include="CleanArchitecture.SharedLibrary">
-      <HintPath>..\SharedDlls\CleanArchitecture.SharedLibrary\CleanArchitecture.SharedLibrary.dll</HintPath>
-    </Reference>
   </ItemGroup>
 
 </Project>

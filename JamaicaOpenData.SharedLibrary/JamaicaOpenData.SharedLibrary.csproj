@@ -3,20 +3,21 @@
   <PropertyGroup>
     <TargetFramework>netstandard2.1</TargetFramework>
     <Nullable>enable</Nullable>
+    <PackageId>Kode4Hue.JamaicaOpenData.SharedLibrary</PackageId>
+    <Version>1.0.1</Version>
+    <Authors>Hubert Graham</Authors>
+    <Description>An Open Shared Library for getting access to data from the Jamaica Open Data Catalog. Jamaica Open Data Catalog can be found here: https://github.com/Kode4Hue/JamaicaOpenData.SharedLibrary</Description>
+    <RepositoryUrl>https://github.com/Kode4Hue/JamaicaOpenData.SharedLibrary</RepositoryUrl>
+    <PackageTags>Jamaica Open Data</PackageTags>
   </PropertyGroup>
 
   <ItemGroup>
     <PackageReference Include="Fluent-Json.NET.Lib_v10" Version="0.2.1" />
+    <PackageReference Include="Kode4Hue.CleanArchitecture.SharedLibrary" Version="1.0.0" />
     <PackageReference Include="Microsoft.Extensions.DependencyInjection.Abstractions" Version="6.0.0" />
     <PackageReference Include="Microsoft.Extensions.Http" Version="6.0.0" />
     <PackageReference Include="Moises.Toolkit.Newtonsoft.FluentAPI" Version="2.0.2" />
     <PackageReference Include="Newtonsoft.Json" Version="13.0.1" />
-  </ItemGroup>
-
-  <ItemGroup>
-    <Reference Include="CleanArchitecture.SharedLibrary">
-      <HintPath>..\SharedDlls\CleanArchitecture.SharedLibrary\CleanArchitecture.SharedLibrary.dll</HintPath>
-    </Reference>
   </ItemGroup>
 
 </Project>

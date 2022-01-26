@@ -5,7 +5,12 @@ VisualStudioVersion = 17.0.31912.275
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "JamaicaOpenData.SharedLibrary", "JamaicaOpenData.SharedLibrary\JamaicaOpenData.SharedLibrary.csproj", "{C4B4E8F2-CA0D-4652-A970-57BCC0BBD9CA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JamaicaOpenData.TestClient", "JamaicaOpenData.TestClient\JamaicaOpenData.TestClient.csproj", "{18FE135C-024C-4688-93BD-442517350EBE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "JamaicaOpenData.TestClient", "JamaicaOpenData.TestClient\JamaicaOpenData.TestClient.csproj", "{18FE135C-024C-4688-93BD-442517350EBE}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{8C451346-4D3D-450C-B9D5-EF3920AA0A18}"
+	ProjectSection(SolutionItems) = preProject
+		nuget.config = nuget.config
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
