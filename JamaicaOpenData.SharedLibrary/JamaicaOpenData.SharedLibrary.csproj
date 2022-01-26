@@ -4,7 +4,7 @@
     <TargetFramework>netstandard2.1</TargetFramework>
     <Nullable>enable</Nullable>
     <PackageId>Kode4Hue.JamaicaOpenData.SharedLibrary</PackageId>
-    <Version>1.0.1</Version>
+    <Version>1.0.2</Version>
     <Authors>Hubert Graham</Authors>
     <Description>An Open Shared Library for getting access to data from the Jamaica Open Data Catalog. Jamaica Open Data Catalog can be found here: https://github.com/Kode4Hue/JamaicaOpenData.SharedLibrary</Description>
     <RepositoryUrl>https://github.com/Kode4Hue/JamaicaOpenData.SharedLibrary</RepositoryUrl>
