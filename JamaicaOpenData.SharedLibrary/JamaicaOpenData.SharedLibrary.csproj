@@ -13,7 +13,7 @@
 
   <ItemGroup>
     <PackageReference Include="Fluent-Json.NET.Lib_v10" Version="0.2.1" />
-    <PackageReference Include="Kode4Hue.CleanArchitecture.SharedLibrary" Version="1.0.0" />
+    <PackageReference Include="Kode4Hue.CleanArchitecture.SharedLibrary" Version="1.0.2" />
     <PackageReference Include="Microsoft.Extensions.DependencyInjection.Abstractions" Version="6.0.0" />
     <PackageReference Include="Microsoft.Extensions.Http" Version="6.0.0" />
     <PackageReference Include="Moises.Toolkit.Newtonsoft.FluentAPI" Version="2.0.2" />
